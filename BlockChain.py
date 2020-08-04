@@ -8,7 +8,7 @@ def sha256(value):
     return hashlib.sha256(value.encode('utf-8')).hexdigest()
 
 
-# 生成密钥对，需要'name'参数
+# 生成密钥对，需要给用户名参数
 class genKeyPair:
     def __init__(self, name):
         self.name = name
